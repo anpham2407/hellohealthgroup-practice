@@ -59,3 +59,7 @@
 .add-new{
   cursor: pointer;
 }
+.pageItem.active{
+  background-color: royalblue;
+  color: #fff;
+}
