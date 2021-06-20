@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Button from '../../components/button';
 import './index.css';
 
-function Home() {
+function Practice() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -43,4 +43,4 @@ function Home() {
   </div>;
 }
 
-export default Home;
+export default Practice;
