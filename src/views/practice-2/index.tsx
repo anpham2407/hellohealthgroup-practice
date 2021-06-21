@@ -8,7 +8,7 @@ function Practice() {
   const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
   const totalPages = Math.round(data.length / 5);
-  const [dataPaging, setDataPaging] = useState([]);
+  const [dataPaging, setDataPaging] = useState([] as any);
   const handlePages = (updatePage: number) => setPage(updatePage);
 
   useEffect(() => {
